@@ -1,0 +1,115 @@
+.header {
+    border-bottom: 2px solid #b1191a;
+    height: 84px;
+    margin-bottom: 20px;
+}
+
+.regist {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.reg-hd {
+    height: 40px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+    padding: 0 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+
+.reg-hd h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.reg-hd a {
+    color: #b1191a;
+}
+
+.content {
+    width: 580px;
+    margin: 0 auto;
+}
+
+.content-left {
+    padding-top: 50px;
+}
+
+.bd_3 {
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.bd_3 label {
+    display: inline-block;
+    font-size: 14px;
+    width: 84px;
+    text-align: center;
+}
+
+.bd_3 input {
+    width: 233px;
+    height: 38px;
+    border: 1px solid #ccc;
+}
+
+.yhxy {
+    margin: 40px 0 50px 68px;
+}
+
+.yhxy a {
+    color: #1b66c7;
+}
+
+.regsiter {
+    width: 200px;
+    height: 34px;
+    line-height: 34px;
+    background-color: rgb(200, 24, 34);
+    color: #fff;
+    margin: 0 0 58px 100px;
+    cursor: pointer;
+}
+
+.footer {
+    height: 120px;
+}
+
+.safe {
+    display: none;
+    padding-left: 155px;
+    color: #b2b2b2;
+    margin: 15px 0;
+}
+
+.safe em {
+    background-color: #b2b2b2;
+    padding: 0 12px;
+    color: #fff;
+}
+
+.success {
+    color: #40b83f;
+    margin-left: 10px;
+}
+
+.error {
+    color: #df3033;
+    margin-left: 10px;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../img/error.png) no-repeat;
+    margin-top: -2px;
+}
+
+.success_icon {
+    background-image: url(../img/success.png);
+}

@@ -1,0 +1,107 @@
+.header {
+	height: 84px;
+}
+.footer {
+	height: 120px;
+}
+.wrap {
+	width: 100%;
+	background-color: rgb(125, 2, 254);
+}
+.content {
+	background: url('../upload/loginbg.png') no-repeat;
+	height: 500px;
+	position: relative;
+}
+.login {
+	position: absolute;
+	width: 320px;
+	height: 360px;
+	background-color: #fff;
+	right: 100px;
+	top: 62px;
+	padding: 0 30px 15px;
+}
+.hd {
+	font-size: 16px;
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+}
+.hd div {
+	float: left;
+	width: 146px;
+}
+.hd .spacer {
+	width: 1px;
+	height: 20px;
+	background-color: #666;
+	margin-top: 20px;
+}
+.pass-form-item{
+	position: relative;
+	padding-bottom: 15px;
+}
+.pass-label{
+	background: url('../img/input_icons_24.png') 0 -66px no-repeat;
+	display: block;
+	position: absolute;
+	height: 24px;
+	overflow: hidden;
+	padding: 0 0 0 24px;
+	left: 16px;
+	top: 5px;
+	z-index: 20;
+}
+.pass-label-password {
+    background: url(../img/input_icons_24.png) 0 -147px no-repeat;
+}
+.pass-input-text{
+	width: 248px;
+	padding-right: 50px;
+	height: 16px;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	color: #666;
+	padding: 12px 36px;
+}
+.pass-submit {
+	width: 320px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgb(200, 24, 34);
+	color: #fff;
+	font-size: 16px;
+}
+.login-foot {
+	margin-top: 20px;
+	height: 50px;
+	line-height: 50px;
+}
+.dlj a {
+	float: left;
+	display: inline-block;
+	width:42px;
+	height: 37px;
+	background: url('../img/regetype.png') no-repeat;
+}
+.dlj .qq {
+	background-position: -14px -6px;
+}
+.dlj .weibo {
+	background-position: -67px -6px;
+}
+.dlj .zfb {
+	background-position: -120px -6px;
+}
+.dlj .weixin {
+	background-position: -171px -6px;
+}
+.hint {
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	padding-left: 8px;
+	border: 1px solid rgb(244, 241, 205);
+	background-color: rgb(252, 252, 235)
+}

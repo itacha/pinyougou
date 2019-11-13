@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>品优购注册！</title>
+    <meta name="description" content="品优购JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!">
+    <meta name="keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,品优购">
+    <!-- 引入facicon.ico网页图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- 引入css 初始化的css 文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共样式的css 文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+
+    <body>
+        <!-- header制作 -->
+        <div class="header w">
+            <div class="logo">
+                <h1>
+                    <a href="index.html" title="品优购">品优购</a>
+                </h1>
+            </div>
+        </div>
+
+        <div class="regist w">
+            <div class="reg-hd">
+                <h3 class="fl">注册新用户</h3>
+                <span class="fr">我有账号，去<a href="login.html">登录</a></span>
+            </div>
+            <div class="content">
+                <div class="content-left">
+                    <form method="post" id="commentForm">
+                        <div class="bd_3">
+                            <label for="username" class="label">用户名：</label>
+                            <input id="username" type="text" name="username" class="bdys pass_phone" autocomplete="off" value placeholder="请输入用户名">
+                            <span></span>
+                        </div>
+                        <div class="bd_3">
+                            <label for="jd_phone" class="label">手机号：</label>
+                            <input id="jd_phone" type="text" name="phone" class="bdys pass_phone" autocomplete="off" value placeholder="可用于登录和找回密码">
+                            <span></span>
+                        </div>
+
+                        <div class="bd_3">
+                            <label for="jd_yzm" class="label">短信验证码：</label>
+                            <input id="jd_yzm" type="text" name="yanzhengma" class="bdys yzm" autocomplete="off" value placeholder="请输入验证码">
+                            <span></span>
+                        </div>
+
+                        <div class="bd_3">
+                            <label for="demo_input" class="label">登陆密码：</label>
+                            <input type="text" name="pwd" class="bdys pass_password" id="demo_input" autocomplete="off" value placeholder="请设置登录密码">
+                            <span></span>
+                        </div>
+                        <div class="safe">
+                            安全程度
+                            <em class="ruo">弱</em>
+                            <em class="zhong">中</em>
+                            <em class="qiang">强</em>
+                        </div>
+
+                        <div class="bd_3 bd_4">
+                            <label for="jd_repwd" class="label">确认密码：</label>
+                            <input id="jd_repwd" type="password" name="repwd" class="bdys" autocomplete="off" value placeholder="再次输入密码">
+                            <span></span>
+                        </div>
+
+                        <div class="yhxy">
+                            <input type="checkbox" name="select" id="agree">
+                            <label for="agree">同意协议并注册</label><a href="#">《品优购用户协议》</a>
+                        </div>
+                        <span class="pass-xy" style="display: none;">&nbsp&nbsp&nbsp&nbsp&nbsp请勾选阅读并接受“百度用户协议”</span>
+
+                        <input type="submit" value="完成注册" name="regsiter" class="regsiter">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- footer start -->
+        <div class="footer clearfix">
+            <div class="w">
+                <div class="mod-copyright">
+                    <p class="mod-copyright-links">
+                        关于我们 | 联系我们 | 联系客服 | 商家入驻 | 营销中心 | 手机品优购 | 友情链接 | 销售联盟 | 品优购社区 | 品优购公益 | English Site | Contact U
+                    </p>
+                    <p class="mod-copyright-info">
+                        地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br> 京ICP备08001421号京公网安备110108007702
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script src="js/register.js"></script>
+    </body>
+
+</html>

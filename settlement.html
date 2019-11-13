@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>我的购物车</title>
+    <meta name="description" content="品优购JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!">
+    <meta name="keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,品优购">
+    <!-- 引入facicon.ico网页图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- 引入css 初始化的css 文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共样式的css 文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/settlement.css">
+</head>
+
+<body>
+    <!-- 顶部快捷导航start -->
+    <div class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>品优购欢迎您！ </li>
+                    <li>
+                        <a href="#">请登录</a>
+                        <a href="#" class="style-red">免费注册</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li><a href="#">我的订单</a></li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">我的品优购</a>
+                        <i class="icomoon"></i>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="#">品优购会员</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">企业采购</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">关注品优购</a> <i class="icomoon"></i></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">客户服务</a> <i class="icomoon"></i></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">网站导航</a> <i class="icomoon"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- header制作 -->
+    <div class="header w">
+        <div class="logo">
+            <h1>
+                <a href="index.html" title="品优购">品优购</a>
+            </h1>
+        </div>
+        <div class="shopcar-title">购物车</div>
+        <div class="search">
+            <input class="text" value placeholder="请搜索内容...">
+            <button class="btn">搜索</button>
+        </div>
+    </div>
+
+    <div class="w">
+        <div class="cart-filter-bar">
+            <a href="#">全部商品<span>11</span></a>
+        </div>
+
+        <div class="crat-thead">
+            <div class="t-checkbox"><input type="checkbox" class='checkall'></input>全选</div>
+            <div class="t-goods">商品</div>
+            <div class="t-price">单价（元）</div>
+            <div class="t-quantity">数量</div>
+            <div class="t-sum">小计（元）</div>
+            <div class="t-action">操作</div>
+        </div>
+
+        <div class="cart-tbody">
+            <div class="shop">
+                <input type="checkbox" class="checkall1">
+                <a href="#">品优购自营</a>
+                <div class="shop-freight">
+                    <span>运费<em>¥6.00</em></span>&nbsp
+                    <span>还差<em>¥99.10</em>免运费</span>
+                </div>
+            </div>
+            <!-- 购买产品 -->
+            <div class="item clearfix" shop-id="1">
+                <div class="item-form">
+                    <input type="checkbox" class="item-check">
+                    <div class="goods fl">
+                        <div class="goods-img">
+                            <a href="#"><img src="upload/js1.PNG" alt=""></a>
+                        </div>
+                        <div class="item-msg fl">
+                            <a href="#" class="item-msg-title">苹果（Apple）MD463FE/A MAC Thunderbolt雷电接口 至千兆以太网转接口</a>
+                            <a href="none"><b class="present"></b>购买礼品包装</a>
+                        </div>
+                    </div>
+                    <div class="prop fl">
+                        <div class="size">尺码：Thunderbolt 至千兆以太网转接口</div>
+                    </div>
+                    <div class="price fl">
+                        <strong>¥248.00</strong>
+                    </div>
+                    <div class="quantity fl">
+                        <a href="javascript:;" class="decrement">-</a>
+                        <input type="text" name="" autocomplete="off" value="1" class="itxt">
+                        <a href="javascript:;" class="incre">+</a>
+                        <div class="stock">有货</div>
+                    </div>
+                    <div class="sum fl">
+                        <strong>¥248.00</strong>
+                    </div>
+                    <div class="ops fl">
+                        <a href="javascript:;" class="remove">删除</a>
+                        <a href="#">移到我的关注</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item clearfix" shop-id="2">
+                <div class="item-form">
+                    <input type="checkbox" class="item-check">
+                    <div class="goods fl">
+                        <div class="goods-img">
+                            <a href="#"><img src="upload/th-3.PNG" alt=""></a>
+                        </div>
+                        <div class="item-msg fl">
+                            <a href="#" class="item-msg-title">Apple MacBook Air 13.3英寸笔记本电脑银色（Corei5)处理器/8GB内存</a>
+                            <a href="none"><b class="present"></b>购买礼品包装</a>
+                        </div>
+                    </div>
+                    <div class="prop fl">
+                        <div class="size">颜色：MacBook银色 尺寸：13.3英寸
+                        </div>
+                    </div>
+                    <div class="price fl">
+                        <strong>¥8488.00</strong>
+                    </div>
+                    <div class="quantity fl">
+                        <a href="javascript:;" class="decrement">-</a>
+                        <input type="text" name="" autocomplete="off" value="1" class="itxt">
+                        <a href="javascript:;" class="incre">+</a>
+                        <div class="stock">有货</div>
+                    </div>
+                    <div class="sum fl">
+                        <strong>¥8488.00</strong>
+                    </div>
+                    <div class="ops fl">
+                        <a href="javascript:;" class="remove">删除</a>
+                        <a href="#">移到我的关注</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item clearfix" shop-id="3">
+                <div class="item-form">
+                    <input type="checkbox" class="item-check">
+                    <div class="goods fl">
+                        <div class="goods-img">
+                            <a href="#"><img src="upload/th-1.PNG" alt=""></a>
+                        </div>
+                        <div class="item-msg fl">
+                            <a href="#" class="item-msg-title">半岛铁盒移动电源A2200白色2200mah</a>
+                            <a href="none"><b class="present"></b>购买礼品包装</a>
+                        </div>
+                    </div>
+                    <div class="prop fl">
+                        <div class="size">型号：A2200</div>
+                    </div>
+                    <div class="price fl">
+                        <strong>¥19.00</strong>
+                    </div>
+                    <div class="quantity fl">
+                        <a href="javascript:;" class="decrement">-</a>
+                        <input type="text" name="" autocomplete="off" value="1" class="itxt">
+                        <a href="javascript:;" class="incre">+</a>
+                        <div class="stock">有货</div>
+                    </div>
+                    <div class="sum fl">
+                        <strong>¥19.00</strong>
+                    </div>
+                    <div class="ops fl">
+                        <a href="javascript:;" class="remove">删除</a>
+                        <a href="#">移到我的关注</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item clearfix" shop-id="4">
+                <div class="item-form">
+                    <input type="checkbox" class="item-check">
+                    <div class="goods fl">
+                        <div class="goods-img">
+                            <a href="#"><img src="upload/js1.PNG" alt=""></a>
+                        </div>
+                        <div class="item-msg fl">
+                            <a href="#" class="item-msg-title">苹果（Apple）MD463FE/A MAC Thunderbolt雷电接口 至千兆以太网转接口</a>
+                            <a href="none"><b class="present"></b>购买礼品包装</a>
+                        </div>
+                    </div>
+                    <div class="prop fl">
+                        <div class="size">尺码：Thunderbolt 至千兆以太网转接口</div>
+                    </div>
+                    <div class="price fl">
+                        <strong>¥248.00</strong>
+                    </div>
+                    <div class="quantity fl">
+                        <a href="javascript:;" class="decrement">-</a>
+                        <input type="text" name="" autocomplete="off" value="1" class="itxt">
+                        <a href="javascript:;" class="incre">+</a>
+                        <div class="stock">有货</div>
+                    </div>
+                    <div class="sum fl">
+                        <strong>¥248.00</strong>
+                    </div>
+                    <div class="ops fl">
+                        <a href="javascript:;" class="remove">删除</a>
+                        <a href="#">移到我的关注</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item clearfix" shop-id="5">
+                <div class="item-form">
+                    <input type="checkbox" class="item-check">
+                    <div class="goods fl">
+                        <div class="goods-img">
+                            <a href="#"><img src="upload/th-2.PNG" alt=""></a>
+                        </div>
+                        <div class="item-msg fl">
+                            <a href="#" class="item-msg-title">苹果（Apple）iPhone(a1586)16g金色移动联通</a>
+                            <a href="none"><b class="present"></b>购买礼品包装</a>
+                        </div>
+                    </div>
+                    <div class="prop fl">
+                        <div class="size">颜色：金色</div>
+                    </div>
+                    <div class="price fl">
+                        <strong>¥3799.00</strong>
+                    </div>
+                    <div class="quantity fl">
+                        <a href="javascript:;" class="decrement">-</a>
+                        <input type="text" name="" autocomplete="off" value="1" class="itxt">
+                        <a href="javascript:;" class="incre">+</a>
+                        <div class="stock">有货</div>
+                    </div>
+                    <div class="sum fl">
+                        <strong>¥3799.00</strong>
+                    </div>
+                    <div class="ops fl">
+                        <a href="javascript:;" class="remove">删除</a>
+                        <a href="#">移到我的关注</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-floatbar clearfix">
+            <div class="cart-checkbox fl">
+                <input type="checkbox" class="checkall">全选
+            </div>
+            <div class="operation fl">
+                <a href="javascript:;">删除选中的商品</a>
+                <a href="javascript:;">移到我的关注</a>
+                <a href="javascript:;">清空购物车</a>
+            </div>
+            <div class="toolbar-right fr">
+                <div class="btn-area fr">
+                    <a href="purchase.html">结算</a>
+                </div>
+                <div class="price-sum fr">
+                    <div>
+                        <span>总价（不含运费）：</span><em>¥16283.00</em><br>
+                        <span>已节省</span>
+                        <span>-¥20.00</span>
+                    </div>
+                </div>
+                <div class="amount-sum fr">
+                    已选择<em>0</em>件商品
+                </div>
+            </div>
+        </div>
+
+        <div class="del-pro">
+            <p>已删除商品，您可以重新购买或加关注：</p>
+        </div>
+        <!-- 猜你喜欢 -->
+        <div class="like">
+            <div class="extra">
+                <a href="#">猜你喜欢</a>
+                <a href="#">特惠换购</a>
+            </div>
+            <div class="like-pro clearfix">
+                <ol class="circle">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+                <div class="goods-list clearfix" style="position: absolute; z-index: 1; opacity: 1;">
+                    <ul>
+                        <li shop-id="6">
+                            <a href="#">
+                                <img src="upload/like1.PNG">
+                            </a>
+                            <div class="p-name">
+                                <a href="#">飞科（FLYCO）FS7805鼻毛修剪器 电动鼻毛器 修鼻毛机</a>
+                            </div>
+                            <div class="p-price">
+                                <strong>¥25.00</strong>
+                            </div>
+                            <div class="p-btn">
+                                <a href="javascript:;"><b></b>加入购物车</a>
+                            </div>
+                        </li>
+                        <li shop-id="7">
+                            <a href="#">
+                                <img src="upload/like2.PNG">
+                            </a>
+                            <div class="p-name">
+                                <a href="#">飞科（FLYCO）FS7805鼻毛修剪器 电动鼻毛器 修鼻毛机</a>
+                            </div>
+                            <div class="p-price">
+                                <strong>¥29.00</strong>
+                            </div>
+                            <div class="p-btn">
+                                <a href="javascript:;"><b></b>加入购物车</a>
+                            </div>
+                        </li>
+                        <li shop-id="8">
+                            <a href="#">
+                                <img src="upload/like3.PNG">
+                            </a>
+                            <div class="p-name">
+                                <a href="#">飞科（FLYCO）FH6218大功率电吹风机2000W负离子</a>
+                            </div>
+                            <div class="p-price">
+                                <strong>¥69.00</strong>
+                            </div>
+                            <div class="p-btn">
+                                <a href="javascript:;"><b></b>加入购物车</a>
+                            </div>
+                        </li>
+                        <li shop-id="9">
+                            <a href="#">
+                                <img src="upload/like4.PNG">
+                            </a>
+                            <div class="p-name">
+                                <a href="#">飞科（FLYCO）FC5808专业电动理发器 成人儿童电推剪</a>
+                            </div>
+                            <div class="p-price">
+                                <strong>¥59.00</strong>
+                            </div>
+                            <div class="p-btn">
+                                <a href="javascript:;"><b></b>加入购物车</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="goods-list clearfix" style="position: absolute; z-index: 0; opacity: 0; display: block;">
+                    <ul>
+                        <li shop-id="8">
+                            <a href="#">
+                                <img src="upload/like3.PNG">
+                            </a>
+                            <div class="p-name">
+                                <a href="#">飞科（FLYCO）FH6218大功率电吹风机2000W负离子</a>
+                            </div>
+                            <div class="p-price">
+                                <strong>¥69.00</strong>
+                            </div>
+                            <div class="p-btn">
+                                <a href="javascript:;"><b></b>加入购物车</a>
+                            </div>
+                        </li>
+                        <li shop-id="9">
+                            <a href="#">
+                                <img src="upload/like4.PNG">
+                            </a>
+                            <div class="p-name">
+                                <a href="#">飞科（FLYCO）FC5808专业电动理发器 成人儿童电推剪</a>
+                            </div>
+                            <div class="p-price">
+                                <strong>¥59.00</strong>
+                            </div>
+                            <div class="p-btn">
+                                <a href="javascript:;"><b></b>加入购物车</a>
+                            </div>
+                        </li>
+                        <li shop-id="6">
+                            <a href="#">
+                                <img src="upload/like1.PNG">
+                            </a>
+                            <div class="p-name">
+                                <a href="#">飞科（FLYCO）FS7805鼻毛修剪器 电动鼻毛器 修鼻毛机</a>
+                            </div>
+                            <div class="p-price">
+                                <strong>¥25.00</strong>
+                            </div>
+                            <div class="p-btn">
+                                <a href="javascript:;"><b></b>加入购物车</a>
+                            </div>
+                        </li>
+                        <li shop-id="7">
+                            <a href="#">
+                                <img src="upload/like2.PNG">
+                            </a>
+                            <div class="p-name">
+                                <a href="#">飞科（FLYCO）FS7805鼻毛修剪器 电动鼻毛器 修鼻毛机</a>
+                            </div>
+                            <div class="p-price">
+                                <strong>¥29.00</strong>
+                            </div>
+                            <div class="p-btn">
+                                <a href="javascript:;"><b></b>加入购物车</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="goods-list clearfix" style="position: absolute; z-index: 0; opacity: 0; display: block;">
+                    <ul>
+                        <li shop-id="6">
+                            <a href="#">
+                                <img src="upload/like1.PNG">
+                            </a>
+                            <div class="p-name">
+                                <a href="#">飞科（FLYCO）FS7805鼻毛修剪器 电动鼻毛器 修鼻毛机</a>
+                            </div>
+                            <div class="p-price">
+                                <strong>¥25.00</strong>
+                            </div>
+                            <div class="p-btn">
+                                <a href="javascript:;"><b></b>加入购物车</a>
+                            </div>
+                        </li>
+                        <li shop-id="7">
+                            <a href="#">
+                                <img src="upload/like2.PNG">
+                            </a>
+                            <div class="p-name">
+                                <a href="#">飞科（FLYCO）FS7805鼻毛修剪器 电动鼻毛器 修鼻毛机</a>
+                            </div>
+                            <div class="p-price">
+                                <strong>¥29.00</strong>
+                            </div>
+                            <div class="p-btn">
+                                <a href="javascript:;"><b></b>加入购物车</a>
+                            </div>
+                        </li>
+                        <li shop-id="8">
+                            <a href="#">
+                                <img src="upload/like3.PNG">
+                            </a>
+                            <div class="p-name">
+                                <a href="#">飞科（FLYCO）FH6218大功率电吹风机2000W负离子</a>
+                            </div>
+                            <div class="p-price">
+                                <strong>¥69.00</strong>
+                            </div>
+                            <div class="p-btn">
+                                <a href="javascript:;"><b></b>加入购物车</a>
+                            </div>
+                        </li>
+                        <li shop-id="9">
+                            <a href="#">
+                                <img src="upload/like4.PNG">
+                            </a>
+                            <div class="p-name">
+                                <a href="#">飞科（FLYCO）FC5808专业电动理发器 成人儿童电推剪</a>
+                            </div>
+                            <div class="p-price">
+                                <strong>¥59.00</strong>
+                            </div>
+                            <div class="p-btn">
+                                <a href="javascript:;"><b></b>加入购物车</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <a href="javascript:;" class="goods-left">&lt</a>
+                <a href="javascript:;" class="goods-right">&gt</a>
+            </div>
+        </div>
+    </div>
+    <!-- footer start -->
+    <div class="footer clearfix">
+        <div class="w">
+            <div class="mod-service">
+                <ul>
+                    <li>
+                        <i class="mod-service-icon mod-service-zheng"></i>
+                        <div class="mod-service-tit">
+                            <h5>正品保障</h5>
+                            <p>正品保障，提供发票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod-service-icon mod-service-kuai"></i>
+                        <div class="mod-service-tit">
+                            <h5>极速物流</h5>
+                            <p>极速物流，极速送达</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod-service-icon mod-service-bao"></i>
+                        <div class="mod-service-tit">
+                            <h5>无忧售后</h5>
+                            <p>7天无理由退换货</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod-service-icon mod-service-bao"></i>
+                        <div class="mod-service-tit">
+                            <h5>特色服务</h5>
+                            <p>私人定制加点套餐</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod-service-icon mod-service-bao"></i>
+                        <div class="mod-service-tit">
+                            <h5>帮助中心</h5>
+                            <p>您的购物指南</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mod-help">
+                <dl class="mod-help-item">
+                    <dt>购物指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行/团购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">大家电</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="mod-help-item">
+                    <dt>配送方式</dt>
+                    <dd><a href="#">上门自提</a></dd>
+                    <dd><a href="#">211限时达</a></dd>
+                    <dd><a href="#">配送服务查询</a></dd>
+                    <dd><a href="#">配送费收取标准</a></dd>
+                    <dd><a href="#">海外配送</a></dd>
+                </dl>
+                <dl class="mod-help-item">
+                    <dt>支付方式</dt>
+                    <dd><a href="#">货到付款</a></dd>
+                    <dd><a href="#">在线支付</a></dd>
+                    <dd><a href="#">分期付款</a></dd>
+                    <dd><a href="#">邮局汇款</a></dd>
+                    <dd><a href="#">公司转账</a></dd>
+                </dl>
+                <dl class="mod-help-item">
+                    <dt>售后服务</dt>
+                    <dd><a href="#">售后政策</a></dd>
+                    <dd><a href="#">价格保护</a></dd>
+                    <dd><a href="#">返修/退换货</a></dd>
+                    <dd><a href="#">退款说明</a></dd>
+                    <dd><a href="#">取消订单</a></dd>
+                </dl>
+                <dl class="mod-help-item">
+                    <dt>特色服务</dt>
+                    <dd><a href="#">夺宝岛</a></dd>
+                    <dd><a href="#">DIY装机</a></dd>
+                    <dd><a href="#">延保服务</a></dd>
+                    <dd><a href="#">品优购E卡</a></dd>
+                    <dd><a href="#">品优购通信</a></dd>
+                </dl>
+                <dl class="mod-help-item mod-help-app">
+                    <dt>帮助中心</dt>
+                    <dd>
+                        <img src="upload/erweima.png" alt="">
+                        <p>品优购客户端</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="mod-copyright">
+                <p class="mod-copyright-links">
+                    关于我们 | 联系我们 | 联系客服 | 商家入驻 | 营销中心 | 手机品优购 | 友情链接 | 销售联盟 | 品优购社区 | 品优购公益 | English Site | Contact U
+                </p>
+                <p class="mod-copyright-info">
+                    地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br> 京ICP备08001421号京公网安备110108007702
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/settlement.js"></script>
+</body>
+
+</html>

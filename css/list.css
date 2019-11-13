@@ -1,0 +1,165 @@
+.sk {
+	border-left: 1px solid #b1191a;
+	padding: 5px 0 0 15px;
+	height: 32px;
+	position: absolute;
+	left: 185px;
+	top: 40px;
+}
+.navitems-list li {
+	float: left;
+}
+.navitems-list .attract {
+	font-size: 16px;
+	font-weight: 700;
+}
+.navitems-list a {
+	display: block;
+    height: 45px;
+    padding: 0 25px;
+    line-height: 45px;
+    font-size: 14px;
+}
+.ico {
+	font-family: 'icomoon';
+	font-size: 16px;
+}
+/*列表页内容区域*/
+.sk-bd {
+	margin-top: 25px;
+}
+.sk-bd ul {
+	width: 1212px;
+}
+.sk-goods {
+	position: relative;
+	float: left;
+	width: 288px;
+	height: 458px;
+	border: 1px solid transparent;
+	margin: 0 12px 15px 0;
+}
+.sk-goods:hover {
+	border: 1px solid #e12228;
+}
+.sk-goods img {
+	transition: all .2s
+}
+.sk-goods img:hover {
+	margin-top: 5px;
+}
+.sk_goods_title {
+	font-size: 14px;
+	color: #666;
+	font-weight: 400;
+	padding: 10px;
+}
+.sk_goods_price {
+	padding: 0 10px;
+}
+.sk_goods_price em {
+	font-size: 22px;
+	color: #e60012;
+}
+.sk_goods_price del {
+	font-size: 14px;
+	font-weight: 700;
+	color: #a4a4a4;
+}
+.sk_goods_progress {
+	padding: 0 10px;
+}
+.bar {
+	display: inline-block;
+	width: 130px;
+	height: 10px;
+	border: 1px solid #b1191a;
+	vertical-align: middle;
+	margin: 0 5px;
+	border-radius: 5px;
+}
+.bar_in {
+	width: 87%;
+	height: 10px;
+	background-color: #f24349;
+}
+.sk_goods_progress em,
+.sk_goods_progress i {
+	color: #f24349;
+}
+.sk_goods_buy {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #b1191a;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+}
+.page {
+	margin: 40px 0;
+	/*里面的文字内容  行内块 行内元素 都可以水平居中对齐*/
+	text-align: center;
+}
+.page-num a {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #ccc;
+	background-color: #f7f7f7;
+}
+.page-num .pn-prev,
+.page-num .pn-next {
+	width: 83px;
+}
+.page-num dotted {
+	border: 1px solid transparent;
+}
+.page-skip input {
+	width: 46px;
+	height: 36px;
+	border: 1px solid #ccc;
+	text-align: center;
+	transition: all 0.3s;
+}
+.page-skip input:focus {
+	width: 88px;
+	border: 1px solid skyblue;
+}
+.page-skip button {
+	width: 54px;
+	height: 36px;
+	border: 1px solid #ccc;
+	background-color: #f7f7f7;
+}
+/* sidebar */
+.sidebar {
+	position: fixed;
+	right: 10px;
+	top: 500px;
+	background-color: #e12228;
+	height: 100px;
+	width: 54px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+.sidebar li {
+	height: 50px;
+	line-height: 50px;
+}
+.sidebar-text {
+	font-size: 18px;
+	border-bottom: 1px solid #fff;
+}
+.sidebar .phone {
+	background: url('../img/icons.png') no-repeat;
+	background-position: 0 -12px;
+	width: 40px;
+	height: 39px;
+	vertical-align: middle;
+	margin-top: 10px;
+}
